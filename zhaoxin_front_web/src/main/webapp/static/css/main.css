@@ -1,0 +1,194 @@
+
+.clear-float:after,
+.clear-float:before{
+	content: " ";
+	display: block;
+	clear:both;
+}
+.header{
+	background:#3bb4f2;
+	
+}
+
+.am-nav-pills>li+li {
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.header ul a{
+	color:black;
+	font-size:16px;
+}
+.header ul .logo{
+	border: 1px solid greenyellow;
+	border-radius: 100%;
+	width:50px;
+	height:50px;
+	background:url(../img/aaa.jpg) no-repeat center;
+	margin-left:10px;
+}
+.container .first{
+	background:#4bf5ee;
+	height:200px;
+	color:#F5F5F5;
+	border: 1px solid black;
+}
+
+.container .first-a h1{
+	display: block;
+	height:50px;
+	padding-top: 50px;
+	margin-left:100px;
+}
+.container .first-b h1{
+	display: block;
+	height:50px;
+	float:right;
+	margin-top:30px;
+	margin-right:70px;
+}
+.second{
+	margin:-20px 25px;
+}
+.second img{
+	width:100%;
+	height:160px;
+}
+.three{
+	
+	background:white;
+}
+.three .title{
+	color:#777;
+	
+	background:#ffc1074f;
+	
+	border-bottom:1px solid greenyellow ;
+}
+.three .title h1{
+	margin:auto 25px;
+}
+.three .content{
+	margin:0 20px;
+	background:#ffc10775;
+}
+.three .content img{
+	height:100px;
+	width:100px;
+	display: block;
+	float:left;
+	margin:30px;
+	
+}
+.four{
+	margin-top:50px;
+	background:white;
+}
+.four .title{
+	color:#777;
+	
+	background:#ffc1074f;
+	
+	border-bottom:1px solid greenyellow ;
+}
+.four .title h1{
+	margin:auto 25px;
+}
+.four .content{
+	margin:0 20px;
+	background:#ffc10775;
+}
+.four .content img{
+	height:100px;
+	width:100px;
+	display: block;
+	float:left;
+	margin:30px;
+	
+}
+.footer{
+	height:100px;
+	background:#3bb4f2;
+}
+.footer p{
+	margin-top:10px;
+	text-align: center;
+}
+.introuduce{
+	height:200px;
+	background: white;
+}
+.introuduce h1{
+	color:#ffeb3be3;
+	text-align: center;
+	
+}
+.introuduce p{
+	color:#9e9e9ee8;
+	text-indent: 2em;
+	display: block;
+	margin:0 20px;
+}
+.inter{
+	background: white;
+	
+}
+.inter-l{
+	width:90px;
+	height:500px;
+	float:left;
+	margin-top:20px;
+	margin-left:10px;
+}
+.inter-r{
+	float:left;
+	width:230px;
+	
+	margin-top:35px;
+}
+.inter-r h1{
+	margin-left:60px;
+}
+.inter-r .new{
+	text-indent: 2em;
+	margin-top:30px;
+	color:#9e9e9eb5;
+}
+.content .title1 h1{
+	margin-top:20px;
+}
+.pic {
+	background: white;
+}
+.study{
+	background:white;
+}
+.study h1{
+	color:#ffeb3be3;
+	text-align:center;
+}
+.study img{
+	width:100%;
+}
+.am-form{
+	background:#9e9e9e94;
+}
+legend{
+	margin-left:120px;
+	border: 0;
+	margin-top:30px;
+}
+.am-btn-secondary{
+	margin-left:120px;
+	
+}
+.suc h1  {
+	margin-left:120px;
+	margin-top:200px;
+}
+
+.suc h3{
+	margin-left:130px;
+	margin-top:30px;
+}
+

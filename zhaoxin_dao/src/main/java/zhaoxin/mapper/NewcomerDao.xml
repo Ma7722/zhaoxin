@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="zhaoxin.dao.NewcomerDao">
+
+    <sql id="newcomerColumn">
+        id,
+        name,
+        xuehao,
+        nianji,
+        zhuanye,
+        xueyuan,
+        team,
+        phone,
+        qq
+    </sql>
+
+    <select id="selectAll" resultType="Newcomer">
+        select <include refid="newcomerColumn"/>
+        from zhaoxin.newcomer
+    </select>
+
+    <select id="selectById" parameterType="int" resultType="Newcomer">
+        select <include refid="newcomerColumn"/>
+        from zhaoxin.newcomer
+        where id=#{id}
+    </select>
+
+    <select id="selectByName" parameterType="String" resultType="Newcomer">
+        select <include refid="newcomerColumn"/>
+        from zhaoxin.newcomer
+        where name=#{name}
+    </select>
+
+    <select id="selectByTeam" parameterType="String" resultType="Newcomer">
+        select <include refid="newcomerColumn"/>
+        from zhaoxin.newcomer
+        where team=#{team}
+    </select>
+
+    <insert id="insert">
+        insert into zhaoxin.newcomer
+        (name,xuehao,nianji,zhuanye,xueyuan,team,phone,qq)
+        values (#{name},#{xuehao},#{nianji},#{zhuanye},#{xueyuan},#{team},#{phone},#{qq})
+    </insert>
+
+    <update id="update" parameterType="Newcomer">
+        update zhaoxin.newcomer
+        set name=#{name},xuehao=#{xuehao},nianji=#{nianji},zhuanye=#{zhuanye},team=#{team},phone=#{phone},qq=#{qq} where id=#{id}
+    </update>
+
+    <delete id="deleteById">
+        delete from zhaoxin.newcomer
+        where id=#{id}
+    </delete>
+
+
+
+
+</mapper>
