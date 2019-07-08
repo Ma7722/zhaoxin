@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="zhaoxin_backend_web" />
+        <module name="zhaoxin_common" />
+        <module name="zhaoxin_dao" />
+        <module name="zhaoxin_front_web" />
+        <module name="zhaoxin_pojo" />
+        <module name="zhaoxin_service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="zhaoxin_backend_web" target="1.7" />
+      <module name="zhaoxin_common" target="1.7" />
+      <module name="zhaoxin_dao" target="1.7" />
+      <module name="zhaoxin_front_web" target="1.7" />
+      <module name="zhaoxin_parent" target="1.7" />
+      <module name="zhaoxin_pojo" target="1.7" />
+      <module name="zhaoxin_service" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

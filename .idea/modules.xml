@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/zhaoxin_backend_web/zhaoxin_backend_web.iml" filepath="$PROJECT_DIR$/zhaoxin_backend_web/zhaoxin_backend_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zhaoxin_common/zhaoxin_common.iml" filepath="$PROJECT_DIR$/zhaoxin_common/zhaoxin_common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zhaoxin_dao/zhaoxin_dao.iml" filepath="$PROJECT_DIR$/zhaoxin_dao/zhaoxin_dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zhaoxin_front_web/zhaoxin_front_web.iml" filepath="$PROJECT_DIR$/zhaoxin_front_web/zhaoxin_front_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zhaoxin_parent.iml" filepath="$PROJECT_DIR$/zhaoxin_parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zhaoxin_pojo/zhaoxin_pojo.iml" filepath="$PROJECT_DIR$/zhaoxin_pojo/zhaoxin_pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zhaoxin_service/zhaoxin_service.iml" filepath="$PROJECT_DIR$/zhaoxin_service/zhaoxin_service.iml" />
+    </modules>
+  </component>
+</project>
